@@ -1,10 +1,8 @@
+source /home/eran/.vim/modules/vundle.vim
+source /home/eran/.vim/modules/plugins.vim
+source /home/eran/.vim/modules/pentagon.vim
+
 source /home/eran/.vim/modules/global.vim
 source /home/eran/.vim/modules/mappings.vim
-source /home/eran/.vim/modules/fzf.vim
-source /home/eran/.vim/modules/airline.vim
-source /home/eran/.vim/modules/tabs.vim
 source /home/eran/.vim/modules/cscope.vim
-source /home/eran/.vim/modules/tmux.vim
-source /home/eran/.vim/modules/autosave.vim
-source /home/eran/.vim/modules/kernel.vim
-source /home/eran/.vim/modules/pentagon.vim
+source /home/eran/.vim/modules/other.vim
