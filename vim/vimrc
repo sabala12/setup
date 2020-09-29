@@ -1,11 +1,8 @@
-source /home/eran/.vim/modules/plugins/vundle.vim
-source /home/eran/.vim/modules/plugins/plugins.vim
-source /home/eran/.vim/modules/plugins/pentagon.vim
+" Plugin Managers: Vundle, Vim-Plug
+source ~/.vim/modules/editor/plugins.vim
+source ~/.vim/modules/editor/global.vim
+source ~/.vim/modules/editor/mappings.vim
 
-source /home/eran/.vim/modules/editor/global.vim
-source /home/eran/.vim/modules/editor/mappings.vim
-source /home/eran/.vim/modules/editor/other.vim
-
-source /home/eran/.vim/modules/programming/cscope.vim
-source /home/eran/.vim/modules/programming/kernel.vim
-source /home/eran/.vim/modules/programming/go.vim
+source ~/.vim/modules/programming/cscope.vim
+source ~/.vim/modules/programming/kernel.vim
+source ~/.vim/modules/programming/go.vim

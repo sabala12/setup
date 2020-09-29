@@ -35,6 +35,7 @@ function! RegenTags(...)
 	:cs reset
 endfunction
 
+"---Mappings
 nnoremap <leader>a "zyiw:exe " cscope find a ".@z.""<CR>
 nnoremap <leader>fa "zyiw:exe " cscope find a ".@z.""
 nnoremap <leader>c "zyiw:exe " cscope find c ".@z.""<CR>
@@ -47,3 +48,8 @@ nnoremap <leader>s "zyiw:exe " cscope find s ".@z.""<CR>
 au BufEnter /* call LoadCscope()
 nnoremap <leader>ll :call LoadDB()<CR>
 nnoremap <F5> :call RegenTags()<CR>
+
+"---Tags
+nnoremap <leader><tab> <plug>(fzf-maps-n)
+nnoremap <leader>, "zyiw:exe " Tags ".@z.""<CR>
+nnoremap <leader>. :Tags<CR>
