@@ -1,0 +1,11 @@
+source /home/eran/.vim/modules/plugins/vundle.vim
+source /home/eran/.vim/modules/plugins/plugins.vim
+source /home/eran/.vim/modules/plugins/pentagon.vim
+
+source /home/eran/.vim/modules/editor/global.vim
+source /home/eran/.vim/modules/editor/mappings.vim
+source /home/eran/.vim/modules/editor/other.vim
+
+source /home/eran/.vim/modules/programming/cscope.vim
+source /home/eran/.vim/modules/programming/kernel.vim
+source /home/eran/.vim/modules/programming/go.vim
