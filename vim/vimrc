@@ -1,8 +1,0 @@
-" Plugin Managers: Vundle, Vim-Plug
-source ~/.vim/modules/editor/plugins.vim
-source ~/.vim/modules/editor/global.vim
-source ~/.vim/modules/editor/mappings.vim
-
-source ~/.vim/modules/programming/cscope.vim
-source ~/.vim/modules/programming/kernel.vim
-source ~/.vim/modules/programming/go.vim
