@@ -1,6 +1,3 @@
-# configs
+# Setup
 
-- tmux
-- vim
-- zsh, oh-my-zsh
-- fzf
+A collection of scripts and configs for a quick os setup.
